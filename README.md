@@ -22,7 +22,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -42,13 +42,13 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/skindud/zabbix-telegram-notification.svg?style=for-the-badge
-[contributors-url]: https://github.com/skindud/zabbix-telegram-notification/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/skindud/zabbix-telegram-notification.svg?style=for-the-badge
-[forks-url]: https://github.com/skindud/zabbix-telegram-notification/network/members
-[stars-shield]: https://img.shields.io/github/stars/skindud/zabbix-telegram-notification.svg?style=for-the-badge
-[stars-url]: https://github.com/skindud/zabbix-telegram-notification/stargazers
-[issues-shield]: https://img.shields.io/github/issues/skindud/zabbix-telegram-notification.svg?style=for-the-badge
-[issues-url]: https://github.com/skindud/zabbix-telegram-notification/issues
-[license-shield]: https://img.shields.io/github/license/skindud/zabbix-telegram-notification.svg?style=for-the-badge
-[license-url]: https://github.com/skindud/zabbix-telegram-notification/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/skindud/useful.svg?style=for-the-badge
+[contributors-url]: https://github.com/skindud/useful/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/skindud/useful.svg?style=for-the-badge
+[forks-url]: https://github.com/skindud/useful/network/members
+[stars-shield]: https://img.shields.io/github/stars/skindud/useful.svg?style=for-the-badge
+[stars-url]: https://github.com/skindud/useful/stargazers
+[issues-shield]: https://img.shields.io/github/issues/skindud/useful.svg?style=for-the-badge
+[issues-url]: https://github.com/skindud/useful/issues
+[license-shield]: https://img.shields.io/github/license/skindud/useful.svg?style=for-the-badge
+[license-url]: https://github.com/skindud/useful/blob/master/LICENSE.txt
