@@ -29,3 +29,4 @@ pvresize /dev/vda2
 ## Unsorted
 
 sudo yum install bash-completion bash-completion-extras
+
