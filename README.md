@@ -24,7 +24,7 @@
 [![MIT License][license-shield]][license-url]
 
 
-[![GitHub Super-Linter](https://github.com/skindud/userful/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub Super-Linter](https://github.com/skindud/useful/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 
 <!-- PROJECT LOGO -->
