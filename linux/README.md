@@ -24,7 +24,7 @@ pvremove /dev/nvme0n1
 lvextend -r -l +100%FREE /dev/vg1/lv1
 pvresize /dev/vda2
 
-- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modify-volume.html?icmpid=docs_ec2_console
+- <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modify-volume.html?icmpid=docs_ec2_console>
 
 ## Unsorted
 
