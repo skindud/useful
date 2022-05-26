@@ -30,3 +30,4 @@ pvresize /dev/vda2
 
 sudo yum install bash-completion bash-completion-extras
 
+some commands
