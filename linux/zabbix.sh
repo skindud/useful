@@ -9,3 +9,4 @@
   roles:
     - role: zabbix_agent
       zabbix_agent_server: zabbix.example.com
+
