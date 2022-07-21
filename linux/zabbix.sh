@@ -1,6 +1,3 @@
-
-
-
 #https://galaxy.ansible.com/community/zabbix
 
 ---
