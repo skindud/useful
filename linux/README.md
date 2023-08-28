@@ -1,4 +1,4 @@
-# Other
+# Linux
 
 ## LVM reduce/extend
 

@@ -1,22 +1,18 @@
 # hdd_crypt
 
-## References
-- https://unix.stackexchange.com/questions/710367/how-to-encrypt-an-existing-disk-on-fedora-without-formatting
-- https://superuser.com/questions/117136/how-can-i-mount-a-partition-from-dd-created-image-of-a-block-device-e-g-hdd-u
-
 This assumes a default Fedora installation, with the following Btrfs-based partitions:
 
-    Root partition (Btrfs subvolumes "root" [mounted at /] and "home" [mounted at /home])
-    Boot partition (mounted at /boot)
-    EFI partition (UEFI systems only, mounted at /boot/efi)
+- Root partition (Btrfs subvolumes "root" [mounted at /] and "home" [mounted at /home])
+- Boot partition (mounted at /boot)
+- EFI partition (UEFI systems only, mounted at /boot/efi)
 
 Requirements
 
-    A full-disk backup
-    cryptsetup (should be included, otherwise install with dnf install cryptsetup)
-    At least 100 MiB of free space
-    A rescue system that can unmount the root filesystem (ex. Fedora live USB)
-    NOTE: The encryption screen will use the keyboard layout defined in /etc/vconsole.conf (set with localectl). The layout cannot be changed at boot time.
+- A full-disk backup
+- cryptsetup (should be included, otherwise install with dnf install cryptsetup)
+- At least 100 MiB of free space
+- A rescue system that can unmount the root filesystem (ex. Fedora live USB)
+- NOTE: The encryption screen will use the keyboard layout defined in /etc/vconsole.conf (set with localectl). The layout cannot be changed at boot time.
 
 Instructions
 
@@ -52,9 +48,9 @@ Reboot and log into the system.
 
 This answer heavily derives from maxschelpzig's answer and the Arch wiki. It also pulls from ceremcem's answer.
 
+## history
 
-
-# history
+```bash
 blkid --uuid
 blkid --uuid a6a68455-6296-48d0-bc1c-4f5751442815
 btrfs check /dev/nvme0n1p3
@@ -91,3 +87,8 @@ umount /mnt
 ls /mnt/
 cryptsetup close system
 history
+```
+
+## References
+- <https://unix.stackexchange.com/questions/710367/how-to-encrypt-an-existing-disk-on-fedora-without-formatting>
+- <https://superuser.com/questions/117136/how-can-i-mount-a-partition-from-dd-created-image-of-a-block-device-e-g-hdd-u>
