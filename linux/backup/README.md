@@ -1,7 +1,6 @@
 # backup
 
-# WARNING!!!
-# Use the following command carefully with fully understanding. Otherwise you disks might be broken.
+# WARNING! Use the following command carefully with fully understanding. Otherwise you disks might be broken.
 
 # backup disk to file
 size_of_disk=$(lsblk -lab|grep "^nvme0n1 "|awk '{print $4}')
