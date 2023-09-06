@@ -1,0 +1,14 @@
+[Unit]
+Description=Squid
+Requires=docker.service
+After=docker.service
+
+[Service]
+TimeoutStartSec=0
+ExecStartPre=-/usr/bin/docker stop squid
+ExecStartPre=-/usr/bin/docker rm squid
+Restart=always
+ExecStart=/usr/bin/docker run --rm --name squid-container -e TZ=UTC -p 3128:3128 -v /srv/squid/squid.conf:/etc/squid/squid.conf ubuntu/squid:5.2-22.04_beta
+
+[Install]
+WantedBy=default.target
